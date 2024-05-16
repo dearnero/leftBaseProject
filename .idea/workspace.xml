@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/HeapDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MergeKListsC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/SelectionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,9 @@
   <component name="Git.Settings">
     <branch-grouping />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar:///usr/local/Cellar/openjdk@8/1.8.0+372/libexec/openjdk.jdk/Contents/Home/src.zip!/java/lang/ArrayIndexOutOfBoundsException.java" root0="SKIP_INSPECTION" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -68,7 +73,7 @@
       <recent name="com.hf.left.algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TimeClient">
+  <component name="RunManager" selected="Application.SelectionSort">
     <configuration name="Deep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.operation.consumer.Deep" />
       <module name="left_project" />
@@ -82,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeneralizedType" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.operation.GeneralizedType" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.SelectionSort" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.operation.consumer.*" />
+          <option name="PATTERN" value="com.hf.left.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.TimeClient" />
         <item itemvalue="Application.TimeServer" />
         <item itemvalue="Application.TimeClientHandler" />
         <item itemvalue="Application.Deep" />
-        <item itemvalue="Application.GeneralizedType" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +175,12 @@
       <workItem from="1715074327184" duration="662000" />
       <workItem from="1715134287700" duration="586000" />
       <workItem from="1715482868808" duration="3500000" />
-      <workItem from="1715563793728" duration="254000" />
+      <workItem from="1715563793728" duration="1700000" />
+      <workItem from="1715665232643" duration="35000" />
+      <workItem from="1715829096600" duration="3447000" />
+      <workItem from="1715850391674" duration="597000" />
+      <workItem from="1715851296840" duration="598000" />
+      <workItem from="1715869535680" duration="1871000" />
     </task>
     <servers />
   </component>
