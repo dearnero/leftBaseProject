@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MergeKListsC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MergeSortedArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/ListNode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,13 +71,13 @@
       <recent name="com.hf.left.algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
-    <configuration name="Deep" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.operation.consumer.Deep" />
+  <component name="RunManager" selected="Application.MergeSortedArrays">
+    <configuration name="MergeSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MergeSortedArrays" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.operation.consumer.*" />
+          <option name="PATTERN" value="com.hf.left.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSortedArrays" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.TimeClient" />
         <item itemvalue="Application.TimeServer" />
         <item itemvalue="Application.TimeClientHandler" />
-        <item itemvalue="Application.Deep" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +178,8 @@
       <workItem from="1715829096600" duration="3447000" />
       <workItem from="1715850391674" duration="597000" />
       <workItem from="1715851296840" duration="598000" />
-      <workItem from="1715869535680" duration="1871000" />
+      <workItem from="1715869535680" duration="2267000" />
+      <workItem from="1715994612912" duration="1983000" />
     </task>
     <servers />
   </component>
