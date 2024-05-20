@@ -39,10 +39,7 @@ public class TimeClientHandler extends ChannelHandlerAdapter {
 
     @Override
     public void channelRead(ChannelHandlerContext ctx, Object msg) throws Exception {
-        ByteBuf buf = (ByteBuf) msg;
-        byte[] bytes = new byte[buf.readableBytes()];
-        buf.readBytes(bytes);
-        String s = new String(bytes, "UTF-8");
-        System.out.println("now is" + s + "; the counter is : " + ++counter);
+        String body = (String)msg;
+        System.out.println("now is" + body + "; the counter is : " + ++counter);
     }
 }
