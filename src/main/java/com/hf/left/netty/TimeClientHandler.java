@@ -15,14 +15,12 @@ import org.slf4j.LoggerFactory;
  */
 public class TimeClientHandler extends ChannelHandlerAdapter {
 
-    private Logger logger = LoggerFactory.getLogger(TimeClientHandler.class);
+    private byte[] req;
 
-    private final ByteBuf firstMessage;
+    private int counter;
 
     public TimeClientHandler(){
-        byte[] req = "query time order".getBytes();
-        firstMessage = Unpooled.buffer(req.length);
-        firstMessage.writeBytes(req);
+        req = ("query time order" + System.getProperty("line.separator")).getBytes();
     }
 
     @Override
@@ -32,7 +30,11 @@ public class TimeClientHandler extends ChannelHandlerAdapter {
 
     @Override
     public void channelActive(ChannelHandlerContext ctx) throws Exception {
-        ctx.writeAndFlush(firstMessage);
+        for (int i = 0; i< 100;i++){
+            ByteBuf message = Unpooled.buffer(req.length);
+            message.writeBytes(req);
+            ctx.writeAndFlush(message);
+        }
     }
 
     @Override
@@ -41,6 +43,6 @@ public class TimeClientHandler extends ChannelHandlerAdapter {
         byte[] bytes = new byte[buf.readableBytes()];
         buf.readBytes(bytes);
         String s = new String(bytes, "UTF-8");
-        System.out.println("now is" + s);
+        System.out.println("now is" + s + "; the counter is : " + ++counter);
     }
 }
