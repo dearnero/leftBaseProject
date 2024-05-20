@@ -9,23 +9,23 @@ package com.hf.left.algorithms;
 public class MergeSortedArrays {
 
     public static void merge(int[] num1, int m, int[] num2, int n){
-        int p1 = m - 1;
-        int p2 = n - 1;
-        for (int k = m + n -1; k >= 0; k--){
-            if (p2 < 0 || (p1 > 0 && num1[p1] >= num2[p2])){
-                num1[k] = num1[p1];
-                p1--;
+        int i = m -1;
+        int j = n -1;
+        for (int k = m + n - 1; k > 0; --k){
+            if (j < 0 || ( i > 0 && num1[i] >= num2[j])){
+                num1[k] = num1[i];
+                i--;
             }else {
-                num1[k] = num2[p2];
-                p2--;
+                num1[k] = num2[j];
+                j--;
             }
         }
     }
 
     public static void main(String[] args) {
-        int[] num1 = {1,2,4,0,0,0};
+        int[] num1 = {1,2,0,0,0};
         int[] num2 = {3,7,8};
-        merge(num1, 3, num2,3);
+        merge(num1, 2, num2,3);
         for (int i : num1) {
             System.out.println(i);
         }
