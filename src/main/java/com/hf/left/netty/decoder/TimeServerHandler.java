@@ -1,11 +1,10 @@
-package com.hf.left.netty;
+package com.hf.left.netty.decoder;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
 import io.netty.channel.ChannelHandlerAdapter;
 import io.netty.channel.ChannelHandlerContext;
 
-import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 public class TimeServerHandler extends ChannelHandlerAdapter {

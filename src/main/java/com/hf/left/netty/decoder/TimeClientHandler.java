@@ -1,4 +1,4 @@
-package com.hf.left.netty;
+package com.hf.left.netty.decoder;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.buffer.Unpooled;
