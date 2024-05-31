@@ -4,7 +4,7 @@ package com.hf.left.algorithms;
  * @description: TODO
  * @author: huang fu
  * @date: 2024/5/18 09:16
- * @v ersion: 1.0
+ * @version: 1.0
  */
 public class MergeSortedArrays {
 

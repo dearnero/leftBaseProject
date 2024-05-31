@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/RemoveDuplicates.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MergeSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MergeSortedArrays.java" afterDir="false" />
     </list>
@@ -77,7 +79,7 @@
       <recent name="com.hf.left.algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MergeSortedArrays">
+  <component name="RunManager" selected="Application.RemoveDuplicates">
     <configuration name="MainExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.operation.consumer.MainExample" />
       <module name="left_project" />
@@ -104,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubReqClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.netty.serialize.SubReqClient" />
+    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.RemoveDuplicates" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.netty.serialize.*" />
+          <option name="PATTERN" value="com.hf.left.algorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,8 +119,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SubReqServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.netty.serialize.SubReqServer" />
+    <configuration name="SubReqClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.netty.serialize.SubReqClient" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -145,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.MergeSortedArrays" />
         <item itemvalue="Application.TreeTraversal" />
         <item itemvalue="Application.MainExample" />
         <item itemvalue="Application.SubReqClient" />
-        <item itemvalue="Application.SubReqServer" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +197,7 @@
       <workItem from="1716792437245" duration="5848000" />
       <workItem from="1717040770334" duration="1628000" />
       <workItem from="1717061961727" duration="1832000" />
-      <workItem from="1717119317634" duration="404000" />
+      <workItem from="1717119317634" duration="3317000" />
     </task>
     <servers />
   </component>
