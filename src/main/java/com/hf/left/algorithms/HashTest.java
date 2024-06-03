@@ -1,5 +1,8 @@
 package com.hf.left.algorithms;
 
+import java.util.Arrays;
+import java.util.List;
+
 /**
  * @description: TODO
  * @author: huang fu
@@ -56,6 +59,26 @@ public class HashTest {
             return dirt[t1.charAt(i) - 'a'] > dirt[t2.charAt(i) - 'a'];
         }
         return t1.length() >= t2.length();
+    }
+
+    public int findMinDifference(List<String> timePoints){
+
+        int[] counts = new int[timePoints.size()];
+        for (int i = 0; i < timePoints.size(); i++) {
+            String time = timePoints.get(i);
+            String[] split = time.split(":");
+            int sum = Integer.parseInt(split[0]) * 60 + Integer.parseInt(split[1]);
+            counts[i] = sum;
+        }
+        Arrays.sort(counts);
+
+        int minDiff = counts.length - 1;
+        for (int i = 1; i < counts.length; i++) {
+            int diff = counts[i] - counts[i - 1];
+            minDiff = Math.min(diff, minDiff);
+        }
+        int circularDiff = 1440 - counts[counts.length - 1] + counts[0];
+        return Math.min(circularDiff, minDiff);
     }
 
     public static void main(String[] args) {
