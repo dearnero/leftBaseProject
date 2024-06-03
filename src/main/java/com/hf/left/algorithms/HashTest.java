@@ -24,5 +24,4 @@ public class HashTest {
         }
         return true;
     }
-
 }
