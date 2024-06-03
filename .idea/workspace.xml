@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/gof/composite/Component.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/gof/composite/Composite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/gof/composite/File.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/gof/composite/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/gof/strategy/SortingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/gof/strategy/StrategyContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/HashTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/HashTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -199,7 +205,8 @@
       <workItem from="1717139051209" duration="543000" />
       <workItem from="1717145053765" duration="2018000" />
       <workItem from="1717301207879" duration="4860000" />
-      <workItem from="1717377494556" duration="5328000" />
+      <workItem from="1717377494556" duration="5536000" />
+      <workItem from="1717397860659" duration="3271000" />
     </task>
     <servers />
   </component>
