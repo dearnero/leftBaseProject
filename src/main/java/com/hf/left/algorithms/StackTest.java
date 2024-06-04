@@ -46,4 +46,26 @@ public class StackTest {
         }
     }
 
+    public int[] asteroidCollision(int[] asteroids){
+        Stack<Integer> stack = new Stack<>();
+        boolean destroyed = false;
+        for (int as : asteroids) {
+            while (!stack.empty() && as < 0 && stack.peek() > 0){
+                if (stack.peek() < -as){
+                    stack.pop();
+                    continue;
+                }else if (stack.peek() == -as){
+                    stack.pop();
+                }
+                // 此处考虑到了新元素被撞击的情况
+                destroyed = true;
+                break;
+            }
+            if (!destroyed){
+                stack.push(as);
+            }
+        }
+        return stack.stream().mapToInt(i -> i).toArray();
+    }
+
 }
