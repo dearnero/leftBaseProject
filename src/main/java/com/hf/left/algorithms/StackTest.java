@@ -48,8 +48,8 @@ public class StackTest {
 
     public int[] asteroidCollision(int[] asteroids){
         Stack<Integer> stack = new Stack<>();
-        boolean destroyed = false;
         for (int as : asteroids) {
+            boolean destroyed = false;
             while (!stack.empty() && as < 0 && stack.peek() > 0){
                 if (stack.peek() < -as){
                     stack.pop();
@@ -66,6 +66,23 @@ public class StackTest {
             }
         }
         return stack.stream().mapToInt(i -> i).toArray();
+    }
+
+    public int[] dailyTemperatures(int[] temperatures){
+        int[] result = new int[temperatures.length];
+        Stack<Integer> stack = new Stack<>();
+        for (int i = 0; i < temperatures.length; i++) {
+            while (!stack.isEmpty() && temperatures[i] > temperatures[stack.peek()]){
+                int prev = stack.pop();
+                result[prev] = i - prev;
+            }
+            stack.push(i);
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        new StackTest().asteroidCollision(new int[]{-2,1,-1,-2});
     }
 
 }

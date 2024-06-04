@@ -78,26 +78,13 @@
       <recent name="com.hf.left.algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashTest">
+  <component name="RunManager" selected="Application.StackTest">
     <configuration name="HashTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.HashTest" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hf.left.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.operation.consumer.MainExample" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.operation.consumer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,6 +118,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.StackTest" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.TreeTraversal" />
       <module name="left_project" />
@@ -146,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.HashTest" />
         <item itemvalue="Application.RemoveDuplicates" />
         <item itemvalue="Application.MergeSortedArrays" />
         <item itemvalue="Application.TreeTraversal" />
-        <item itemvalue="Application.MainExample" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +202,7 @@
       <workItem from="1717301207879" duration="4860000" />
       <workItem from="1717377494556" duration="5536000" />
       <workItem from="1717397860659" duration="7602000" />
-      <workItem from="1717465479046" duration="2788000" />
+      <workItem from="1717465479046" duration="6535000" />
     </task>
     <servers />
   </component>
@@ -232,6 +232,11 @@
           <url>jar://$MAVEN_REPOSITORY$/io/netty/netty-all/5.0.0.Alpha1/netty-all-5.0.0.Alpha1-sources.jar!/io/netty/util/concurrent/DefaultPromise.java</url>
           <line>233</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/StackTest.java</url>
+          <line>49</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
