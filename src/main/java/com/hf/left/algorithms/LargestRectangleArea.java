@@ -77,4 +77,22 @@ public class LargestRectangleArea {
         return Math.max(area, kArea);
     }
 
+    public int maximalRectangle(char[][] matrix){
+        if (matrix.length == 0 || matrix[0].length == 0){
+            return 0;
+        }
+        int[] heights = new int[matrix[0].length];
+        int maxArea = 0;
+        for (char[] chars : matrix) {
+            for (int i = 0; i < chars.length; i++) {
+                if (chars[i] == '0'){
+                    heights[i] = 0;
+                }else {
+                    heights[i]++;
+                }
+            }
+            maxArea = Math.max(maxArea, calculate02(heights));
+        }
+        return maxArea;
+    }
 }
