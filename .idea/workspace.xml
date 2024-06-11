@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/QueueTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/TreeTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +205,10 @@
       <workItem from="1717465479046" duration="6607000" />
       <workItem from="1717551257315" duration="8302000" />
       <workItem from="1717636888976" duration="1248000" />
-      <workItem from="1717857491875" duration="1093000" />
+      <workItem from="1717857491875" duration="1691000" />
+      <workItem from="1717939256715" duration="2487000" />
+      <workItem from="1718004611429" duration="2147000" />
+      <workItem from="1718068027720" duration="1260000" />
     </task>
     <servers />
   </component>
