@@ -1,9 +1,6 @@
 package com.hf.left.algorithms;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 /**
  * @description:
@@ -57,6 +54,22 @@ public class TreeTraversal {
             }
         }
 
+        List<Integer> preOrderByStack(Node node){
+            List<Integer> result = new LinkedList<>();
+            Stack<Node> stack  = new Stack<>();
+            Node cur = node;
+            while (cur != null || !stack.isEmpty()){
+                while (cur != null){
+                    result.add(cur.value);
+                    stack.push(cur);
+                    cur = cur.left;
+                }
+                cur = stack.pop();
+                cur = cur.right;
+            }
+            return result;
+        }
+
         void inOrder(Node node){
             if (node != null){
                 inOrder(node.left);
@@ -65,12 +78,52 @@ public class TreeTraversal {
             }
         }
 
+        List<Integer> inOrderByStack(Node node){
+            List<Integer> nodes = new LinkedList<>();
+            Stack<Node> stack = new Stack<>();
+            Node cur = node;
+            while (cur != null || !stack.isEmpty()){
+                while (cur != null){
+                    stack.push(cur);
+                    cur = cur.left;
+                }
+                cur = stack.pop();
+                nodes.add(cur.value);
+                cur = cur.right;
+            }
+            return nodes;
+        }
+
         void postOrder(Node node){
             if (node != null){
                 postOrder(node.left);
                 postOrder(node.right);
                 System.out.println(node.value + " ");
             }
+        }
+
+        List<Integer> postOrderByStack(Node node){
+            List<Integer> result = new LinkedList<>();
+            Stack<Node> stack = new Stack<>();
+            Node cur = node;
+            Node prev = null;
+            while (cur != null || !stack.isEmpty()){
+                while (cur != null){
+                    stack.push(cur);
+                    cur = cur.left;
+                }
+                cur = stack.peek();
+                if (cur.right != null && cur.right != prev){
+                    cur = cur.right;
+                }else {
+                    stack.pop();
+                    result.add(cur.value);
+                    prev = cur;
+                    cur = null;
+                }
+
+            }
+            return result;
         }
 
         void leverOrder(){
@@ -182,16 +235,31 @@ public class TreeTraversal {
 
     public static void main(String[] args) {
 
-        RedBlackTree tree = new TreeTraversal().new RedBlackTree();
-        tree.insert(15);
-        tree.insert(10);
-        tree.insert(20);
-        tree.insert(8);
-        tree.insert(12);
-        tree.insert(17);
-        tree.insert(25);
+//        RedBlackTree tree = new TreeTraversal().new RedBlackTree();
+//        tree.insert(15);
+//        tree.insert(10);
+//        tree.insert(20);
+//        tree.insert(8);
+//        tree.insert(12);
+//        tree.insert(17);
+//        tree.insert(25);
+//
+//
+//
+//
+//        System.out.println("Pre-order traversal:");
+//        tree.preOrder(tree.root);  // Output: 15 10 8 12 20 17 25
 
-        System.out.println("Pre-order traversal:");
-        tree.preOrder(tree.root);  // Output: 15 10 8 12 20 17 25
+        Node root = new TreeTraversal().new Node(1);
+        Node left = new TreeTraversal().new Node(2);
+        left.left =  new TreeTraversal().new Node(4);
+        left.right =  new TreeTraversal().new Node(5);
+        Node right = new TreeTraversal().new Node(2);
+        right.left =  new TreeTraversal().new Node(6);
+        right.right =  new TreeTraversal().new Node(7);
+        root.left = left;
+        root.right = right;
+
+        new TreeTraversal().new RedBlackTree().inOrderByStack(root);
     }
 }
