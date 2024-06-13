@@ -102,6 +102,21 @@ public class TreeTraversal {
             }
         }
 
+        /**
+         * 使用后续遍历，进行操作
+         */
+        public Node pruneTree(Node node){
+            if (node == null){
+                return null;
+            }
+            node.left = pruneTree(node.left);
+            node.right = pruneTree(node.right);
+            if (node.left == null && node.right == null && node.value == 0){
+                return null;
+            }
+            return node;
+        }
+
         List<Integer> postOrderByStack(Node node){
             List<Integer> result = new LinkedList<>();
             Stack<Node> stack = new Stack<>();
@@ -232,6 +247,7 @@ public class TreeTraversal {
         }
         return leftValue;
     }
+
 
     public static void main(String[] args) {
 

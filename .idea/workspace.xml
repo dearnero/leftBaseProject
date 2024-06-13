@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/TreeSerialize.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/TreeTraversal.java" afterDir="false" />
     </list>
@@ -210,7 +212,8 @@
       <workItem from="1718004611429" duration="2147000" />
       <workItem from="1718068027720" duration="1635000" />
       <workItem from="1718070089168" duration="4000" />
-      <workItem from="1718155195241" duration="3102000" />
+      <workItem from="1718155195241" duration="9316000" />
+      <workItem from="1718242930647" duration="3812000" />
     </task>
     <servers />
   </component>
