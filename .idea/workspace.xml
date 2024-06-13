@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/TreeSerialize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/SumNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/TreeTraversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/TreeTraversal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +78,7 @@
       <recent name="com.hf.left.algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TreeTraversal">
+  <component name="RunManager" selected="Application.SumNumbers">
     <configuration name="HashTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.HashTest" />
       <module name="left_project" />
@@ -107,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.RemoveDuplicates" />
+    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.StackTest" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -120,12 +118,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.StackTest" />
+    <configuration name="SumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.tree.SumNumbers" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.*" />
+          <option name="PATTERN" value="com.hf.left.algorithms.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumNumbers" />
         <item itemvalue="Application.TreeTraversal" />
         <item itemvalue="Application.LargestRectangleArea" />
         <item itemvalue="Application.StackTest" />
         <item itemvalue="Application.HashTest" />
-        <item itemvalue="Application.RemoveDuplicates" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +211,8 @@
       <workItem from="1718068027720" duration="1635000" />
       <workItem from="1718070089168" duration="4000" />
       <workItem from="1718155195241" duration="9316000" />
-      <workItem from="1718242930647" duration="3812000" />
+      <workItem from="1718242930647" duration="3952000" />
+      <workItem from="1718269933282" duration="1331000" />
     </task>
     <servers />
   </component>
