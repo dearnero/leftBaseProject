@@ -24,16 +24,16 @@ public class PathSum {
         return dfs(root, sum, hashMap, 0);
     }
 
-    private int dfs(TreeNode root, int target, Map<Integer, Integer> hashMap, int path) {
-        if (root == null)  {
+    private int dfs(TreeNode root, int target, Map<Integer, Integer> map, int prefixSum) {
+        if (root == null){
             return 0;
         }
-        path += root.value;
-        int count = hashMap.getOrDefault(path - target, 0);
-        hashMap.put(path, hashMap.getOrDefault(path, 0) + 1);
-        count += dfs(root.left, target, hashMap, path);
-        count += dfs(root.right, target, hashMap, path);
-        hashMap.put(path, hashMap.get(path) - 1);
+        prefixSum += root.value;
+        int count = map.getOrDefault(prefixSum - target, 0);
+        map.put(prefixSum, map.getOrDefault(prefixSum, 0) + 1);
+        count += dfs(root.left, target, map, prefixSum);
+        count += dfs(root.right, target, map, prefixSum);
+        map.put(prefixSum, map.get(prefixSum) - 1);
         return count;
     }
 
