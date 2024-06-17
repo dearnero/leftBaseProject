@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/MaxPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/IsPrefectSquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MySqrt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/PathSum.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,9 +80,22 @@
       <recent name="com.hf.left.algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PathSum">
-    <configuration name="LargestRectangleArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.LargestRectangleArea" />
+  <component name="RunManager" selected="Application.Search">
+    <configuration name="IsPrefectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.IsPrefectSquare" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MySqrt" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.StackTest" />
+    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.Search" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -132,26 +146,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.TreeTraversal" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Search" />
+        <item itemvalue="Application.MySqrt" />
+        <item itemvalue="Application.IsPrefectSquare" />
         <item itemvalue="Application.PathSum" />
         <item itemvalue="Application.SumNumbers" />
-        <item itemvalue="Application.TreeTraversal" />
-        <item itemvalue="Application.LargestRectangleArea" />
-        <item itemvalue="Application.StackTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +216,9 @@
       <workItem from="1718242930647" duration="3952000" />
       <workItem from="1718269933282" duration="4104000" />
       <workItem from="1718328708457" duration="1149000" />
-      <workItem from="1718335110379" duration="4910000" />
+      <workItem from="1718335110379" duration="8155000" />
+      <workItem from="1718441619909" duration="1809000" />
+      <workItem from="1718509459893" duration="8230000" />
     </task>
     <servers />
   </component>
