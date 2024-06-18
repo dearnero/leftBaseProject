@@ -9,9 +9,9 @@ package com.hf.left.algorithms.linkedlist;
 public class MoveZero283 {
 
     public void moveZeros(int[] nums){
-        int n = nums.length;
+
         int l = 0, r = 0;
-        while (r < n){
+        while (r < nums.length){
             if (nums[r] != 0){
                 int temp = nums[l];
                 nums[l] = nums[r];
