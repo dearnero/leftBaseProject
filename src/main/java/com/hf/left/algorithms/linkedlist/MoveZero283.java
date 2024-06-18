@@ -9,16 +9,16 @@ package com.hf.left.algorithms.linkedlist;
 public class MoveZero283 {
 
     public void moveZeros(int[] nums){
-
-        int l = 0, r = 0;
-        while (r < nums.length){
-            if (nums[r] != 0){
-                int temp = nums[l];
-                nums[l] = nums[r];
-                nums[r] = temp;
-                l++;
+        int left = 0;
+        int right = 0;
+        while (right < nums.length){
+            if (nums[right] != 0){
+                int temp = nums[left];
+                nums[left] = nums[right];
+                nums[right] = temp;
+                left++;
             }
-            r++;
+            right++;
         }
     }
 

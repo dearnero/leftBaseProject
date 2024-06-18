@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/ClimbStairs70.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/ThreeSum15.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/MaxArea11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/MaxArea11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/MoveZero283.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/MoveZero283.java" afterDir="false" />
@@ -220,7 +222,8 @@
       <workItem from="1718509459893" duration="8230000" />
       <workItem from="1718588007954" duration="738000" />
       <workItem from="1718671651534" duration="3649000" />
-      <workItem from="1718689537718" duration="401000" />
+      <workItem from="1718689537718" duration="421000" />
+      <workItem from="1718715734395" duration="3412000" />
     </task>
     <servers />
   </component>
