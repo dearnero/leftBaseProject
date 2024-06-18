@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/MaxArea11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/MoveZero283.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,13 +79,26 @@
       <recent name="com.hf.left.algorithms" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Search">
+  <component name="RunManager" selected="Application.MaxArea11">
     <configuration name="IsPrefectSquare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.IsPrefectSquare" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hf.left.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxArea11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.linkedlist.MaxArea11" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.algorithms.linkedlist.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,26 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.tree.SumNumbers" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxArea11" />
         <item itemvalue="Application.Search" />
         <item itemvalue="Application.MySqrt" />
         <item itemvalue="Application.IsPrefectSquare" />
         <item itemvalue="Application.PathSum" />
-        <item itemvalue="Application.SumNumbers" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +218,8 @@
       <workItem from="1718335110379" duration="8155000" />
       <workItem from="1718441619909" duration="1809000" />
       <workItem from="1718509459893" duration="8230000" />
-      <workItem from="1718588007954" duration="667000" />
+      <workItem from="1718588007954" duration="738000" />
+      <workItem from="1718671651534" duration="3360000" />
     </task>
     <servers />
   </component>
@@ -253,6 +255,11 @@
           <line>49</line>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/linkedlist/MaxArea11.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -267,6 +274,9 @@
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/left_project$MaxArea11.ic" NAME="MaxArea11 Coverage Results" MODIFIED="1718674764246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hf.left.algorithms.linkedlist.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/left_project$MergeSortedArrays.ic" NAME="MergeSortedArrays Coverage Results" MODIFIED="1717063141219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hf.left.algorithms.*</FILTER>
     </SUITE>
