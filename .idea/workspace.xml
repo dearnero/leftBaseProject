@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/stack/MaxSlidingWindow239.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/map/GroupAnagrams49.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/map/IsAnagramLCR032.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -229,7 +230,9 @@
       <workItem from="1718962144968" duration="684000" />
       <workItem from="1719020563489" duration="167000" />
       <workItem from="1719109875102" duration="8899000" />
-      <workItem from="1719216154144" duration="5959000" />
+      <workItem from="1719216154144" duration="6756000" />
+      <workItem from="1719225581053" duration="14000" />
+      <workItem from="1719400323943" duration="2040000" />
     </task>
     <servers />
   </component>
@@ -264,11 +267,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/StackTest.java</url>
           <line>49</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/stack/MaxSlidingWindow239.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
