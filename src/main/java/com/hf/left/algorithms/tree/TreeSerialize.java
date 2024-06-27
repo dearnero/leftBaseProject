@@ -16,7 +16,7 @@ public class TreeSerialize {
         }
         String leftStr = serialize(node.left);
         String rightStr = serialize(node.right);
-        return String.valueOf(node.value) + "," + leftStr + "," + rightStr;
+        return String.valueOf(node.val) + "," + leftStr + "," + rightStr;
     }
 
     public TreeNode deserialize(String data){

@@ -8,12 +8,13 @@ package com.hf.left.algorithms.definition;
  */
 public class TreeNode {
 
-    public Integer value;
+    public Integer val;
 
     public TreeNode left;
+
     public TreeNode right;
 
     public TreeNode(Integer value) {
-        this.value = value;
+        this.val = value;
     }
 }

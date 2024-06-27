@@ -28,7 +28,7 @@ public class PathSum {
         if (root == null){
             return 0;
         }
-        prefixSum += root.value;
+        prefixSum += root.val;
         int count = map.getOrDefault(prefixSum - target, 0);
         map.put(prefixSum, map.getOrDefault(prefixSum, 0) + 1);
         count += dfs(root.left, target, map, prefixSum);

@@ -20,7 +20,7 @@ public class SumNumbers {
         if (node == null){
             return 0;
         }
-        path = path * 10 + node.value;
+        path = path * 10 + node.val;
         if (node.left == null && node.right == null){
             return path;
         }

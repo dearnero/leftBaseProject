@@ -27,7 +27,7 @@ public class MaxPathSum {
         int right = Math.max(0, dfs(root.right, maxSumRight));
 
         maxSum[0] = Math.max(maxSumLeft[0], maxSumRight[0]);
-        maxSum[0] = Math.max(maxSum[0], root.value + left + right);
-        return root.value + Math.max(left, right);
+        maxSum[0] = Math.max(maxSum[0], root.val + left + right);
+        return root.val + Math.max(left, right);
     }
 }
