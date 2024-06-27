@@ -5,16 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/NTreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/InorderTraversal94.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/Postorder590.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/preorderTraversal144.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/LevelOrder429.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/MaxPathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/MaxPathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/PathSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/PathSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/SumNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/SumNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/TreeSerialize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/TreeSerialize.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +81,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxSlidingWindow239">
+  <component name="RunManager" selected="Application.LevelOrder429">
     <configuration name="IsValid20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.stack.IsValid20" />
       <module name="left_project" />
@@ -116,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSlidingWindow239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.stack.MaxSlidingWindow239" />
+    <configuration name="LevelOrder429" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.tree.LevelOrder429" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.stack.*" />
+          <option name="PATTERN" value="com.hf.left.algorithms.tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.gof.proxy.Proxy" />
+    <configuration name="MaxSlidingWindow239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.stack.MaxSlidingWindow239" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.gof.proxy.*" />
+          <option name="PATTERN" value="com.hf.left.algorithms.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LevelOrder429" />
         <item itemvalue="Application.MaxSlidingWindow239" />
         <item itemvalue="Application.LargestRectangleArea84" />
         <item itemvalue="Application.IsValid20" />
         <item itemvalue="Application.ThreeNum15" />
-        <item itemvalue="Application.Proxy" />
       </list>
     </recent_temporary>
   </component>
@@ -243,7 +235,7 @@
       <workItem from="1719216154144" duration="6756000" />
       <workItem from="1719225581053" duration="14000" />
       <workItem from="1719400323943" duration="3142000" />
-      <workItem from="1719451369688" duration="2485000" />
+      <workItem from="1719451369688" duration="5966000" />
     </task>
     <servers />
   </component>
