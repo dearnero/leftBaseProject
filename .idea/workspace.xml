@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/ClimbStairs70.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/GenerateParenthesis22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/ValidBST98.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -238,7 +236,7 @@
       <workItem from="1719225581053" duration="14000" />
       <workItem from="1719400323943" duration="3142000" />
       <workItem from="1719451369688" duration="6107000" />
-      <workItem from="1719711044844" duration="3972000" />
+      <workItem from="1719711044844" duration="7151000" />
     </task>
     <servers />
   </component>
@@ -273,11 +271,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/StackTest.java</url>
           <line>49</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/GenerateParenthesis22.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
