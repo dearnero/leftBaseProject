@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/ValidBST98.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/MyPow50.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/Subsets79.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,39 +83,13 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateParenthesis22">
+  <component name="RunManager" selected="Application.Subsets79">
     <configuration name="GenerateParenthesis22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.GenerateParenthesis22" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hf.left.algorithms.resursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IsValid20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.stack.IsValid20" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LargestRectangleArea84" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.stack.LargestRectangleArea84" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +110,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSlidingWindow239" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.stack.MaxSlidingWindow239" />
+    <configuration name="MyPow50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.MyPow50" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.stack.*" />
+          <option name="PATTERN" value="com.hf.left.algorithms.resursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Permutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.Permutations" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.algorithms.resursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Subsets79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.Subsets79" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.algorithms.resursion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Subsets79" />
+        <item itemvalue="Application.MyPow50" />
+        <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.GenerateParenthesis22" />
         <item itemvalue="Application.LevelOrder429" />
-        <item itemvalue="Application.MaxSlidingWindow239" />
-        <item itemvalue="Application.LargestRectangleArea84" />
-        <item itemvalue="Application.IsValid20" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +238,10 @@
       <workItem from="1719225581053" duration="14000" />
       <workItem from="1719400323943" duration="3142000" />
       <workItem from="1719451369688" duration="6107000" />
-      <workItem from="1719711044844" duration="7151000" />
+      <workItem from="1719711044844" duration="7856000" />
+      <workItem from="1719797807983" duration="19000" />
+      <workItem from="1719797937272" duration="1000" />
+      <workItem from="1719818182981" duration="3895000" />
     </task>
     <servers />
   </component>
