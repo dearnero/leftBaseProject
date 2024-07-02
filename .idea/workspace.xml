@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/MyPow50.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/Subsets79.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/LetterCombinations17.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/SolveNQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -241,7 +240,7 @@
       <workItem from="1719711044844" duration="7856000" />
       <workItem from="1719797807983" duration="19000" />
       <workItem from="1719797937272" duration="1000" />
-      <workItem from="1719818182981" duration="3895000" />
+      <workItem from="1719818182981" duration="6776000" />
     </task>
     <servers />
   </component>
