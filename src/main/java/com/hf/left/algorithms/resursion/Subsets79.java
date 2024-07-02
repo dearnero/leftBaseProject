@@ -11,26 +11,27 @@ import java.util.List;
  */
 public class Subsets79 {
     public List<List<Integer>> subsets(int[] nums) {
-        List<List<Integer>> result = new ArrayList<>();
         if (nums.length == 0){
-            return result;
+            return null;
         }
-        helper(0, nums, new ArrayList<>(), result);
-        return result;
+        List<List<Integer>> subsets  = new ArrayList<>();
+        helper(0, nums, new ArrayList<>(), subsets);
+        return subsets;
     }
 
-    private void helper(int level, int[] nums, List<Integer> levelList, List<List<Integer>> result){
-        if (level == nums.length){
-            result.add(levelList);
+    private void helper(int index, int[] nums, List<Integer> levels, List<List<Integer>> subsets){
+        if (index == nums.length){
+            subsets.add(new ArrayList<>(levels));
             return;
         }
-        helper(level+1, nums, levelList, result);
-        levelList.add(nums[level]);
-        helper(level+1, nums, levelList, result);
-        levelList.remove(levelList.size()  - 1);
+        helper(index + 1, nums, levels, subsets);
+        levels.add(nums[index]);
+        helper(index + 1, nums, levels, subsets);
+        // 一定要注意清理当前层数据，避免levels中的值被带到上层
+        levels.remove(levels.size() - 1);
     }
 
     public static void main(String[] args) {
-        new Subsets79().subsets(new int[]{1,2,3});
+        System.out.println(new Subsets79().subsets(new int[]{1,2}));
     }
 }
