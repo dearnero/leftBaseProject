@@ -14,8 +14,9 @@ import java.util.Map;
 public class LetterCombinations17 {
 
     public List<String> letterCombinations(String digits) {
+        List<String> ans = new ArrayList<>();
         if (digits == null || digits.length() == 0){
-            return null;
+            return ans;
         }
         Map<Character, String> dirt = new HashMap<>();
         dirt.put('2', "abc");
@@ -26,19 +27,22 @@ public class LetterCombinations17 {
         dirt.put('7', "pqsr");
         dirt.put('8', "tuv");
         dirt.put('9', "wxyz");
-        List<String> result = new ArrayList<>();
-        help("", digits, 0, result, dirt);
-        return result;
+        helper(digits, "", ans, 0 ,dirt);
+        return ans;
     }
 
-    private void help(String s, String digits, int level, List<String> result, Map<Character, String> dirt){
-        if (level == digits.length()){
-            result.add(s);
+    private void helper(String digits, String str, List<String> ans, int index, Map<Character, String> dirt){
+        if (index == digits.length()){
+            ans.add(str);
             return;
         }
-        String s1 = dirt.get(digits.charAt(level));
-        for (int i = 0; i < s1.toCharArray().length; i++) {
-            help(s + s1.charAt(i), digits, level + 1, result, dirt);
+        char c = digits.charAt(index);
+        for (char c1 : dirt.get(c).toCharArray()) {
+            helper(digits, str + c1, ans, index + 1, dirt);
         }
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new LetterCombinations17().letterCombinations("23"));
     }
 }
