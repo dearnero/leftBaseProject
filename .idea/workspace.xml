@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/LetterCombinations17.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/SolveNQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/GenerateParenthesis22.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/GenerateParenthesis22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/MyPow50.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/MyPow50.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Subsets79">
+  <component name="RunManager" selected="Application.MyPow50">
     <configuration name="GenerateParenthesis22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.GenerateParenthesis22" />
       <module name="left_project" />
@@ -150,10 +150,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Subsets79" />
         <item itemvalue="Application.MyPow50" />
-        <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.GenerateParenthesis22" />
+        <item itemvalue="Application.Subsets79" />
+        <item itemvalue="Application.Permutations" />
         <item itemvalue="Application.LevelOrder429" />
       </list>
     </recent_temporary>
@@ -241,6 +241,7 @@
       <workItem from="1719797807983" duration="19000" />
       <workItem from="1719797937272" duration="1000" />
       <workItem from="1719818182981" duration="6776000" />
+      <workItem from="1719883805466" duration="2137000" />
     </task>
     <servers />
   </component>

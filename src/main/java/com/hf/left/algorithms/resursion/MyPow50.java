@@ -9,18 +9,20 @@ package com.hf.left.algorithms.resursion;
 public class MyPow50 {
 
     public double myPow(double x, int n) {
-        long N = n;
-        if (N < 0) {
-            x = 1 / x;
-            N = -N;
+
+        if (n < 0){
+            n = -n;
+            x = 1/x;
         }
-        return helper(x, N);
+        return helper(x, n);
     }
 
-    private double helper(double x, long n) {
-        if (n == 0) return 1.0;
-        double h = helper(x, n / 2);
-        return n % 2 == 1 ? h * h * x : h * h;
+    private double helper(double x, int n){
+        if (n == 0) {
+            return 1.0;
+        }
+        double half = helper(x, n / 2);
+        return n %2 == 0 ? half * half : half * half * x;
     }
 
     public static void main(String[] args) {

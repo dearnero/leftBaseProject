@@ -11,30 +11,28 @@ import java.util.List;
  */
 public class GenerateParenthesis22 {
 
-    private List<String> result;
-
     public List<String> generateParenthesis(int n){
-        result = new ArrayList<>();
-        generate(0, 0 , n, "");
-        return result;
+
+        List<String> ans = new ArrayList<>();
+        helper(n, "", ans, 0, 0);
+        return ans;
     }
 
-    private void generate(int left, int right, int n, String s) {
-        // terminator
-        if (left == n && right == n){
-            result.add(s);
+    void helper(int n, String s, List<String> ans, int left, int right){
+
+        if (s.length() == 2 * n){
+            ans.add(s);
             return;
         }
-        // drill down
-        if (left < n){
-            generate(left + 1, right, n, s + "(");
+        if(left < n){
+            helper(n, s + "(", ans, left+1, right);
         }
         if (right < left){
-            generate(left,right + 1, n, s + ")");
+            helper(n, s + ")", ans, left, right+1);
         }
     }
 
     public static void main(String[] args) {
-        System.out.println(new GenerateParenthesis22().generateParenthesis(3));
+        System.out.println(new GenerateParenthesis22().generateParenthesis(2));
     }
 }
