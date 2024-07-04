@@ -242,7 +242,8 @@
       <workItem from="1719818182981" duration="6776000" />
       <workItem from="1719883805466" duration="8595000" />
       <workItem from="1719968570902" duration="8000" />
-      <workItem from="1719997193947" duration="8046000" />
+      <workItem from="1719997193947" duration="8191000" />
+      <workItem from="1720056001060" duration="798000" />
     </task>
     <servers />
   </component>
@@ -277,11 +278,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/StackTest.java</url>
           <line>49</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/SolveNQueens.java</url>
-          <line>26</line>
-          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
