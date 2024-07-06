@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/LevelOrder102.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/MinMutation433.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/NumIslands200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/UpdateBoard529.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/Merge01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/RemoveElement02.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/SolveNQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/resursion/SolveNQueens.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,20 +85,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MinMutation433">
-    <configuration name="LetterCombinations17" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.LetterCombinations17" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.resursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveElement02">
     <configuration name="LevelOrder102" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.tree.LevelOrder102" />
       <module name="left_project" />
@@ -122,6 +112,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NumIslands200" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.NumIslands200" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.algorithms.resursion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveElement02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.RemoveElement02" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.interview.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SolveNQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.SolveNQueens" />
       <module name="left_project" />
@@ -135,26 +151,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Subsets79" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.resursion.Subsets79" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.resursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveElement02" />
+        <item itemvalue="Application.NumIslands200" />
         <item itemvalue="Application.MinMutation433" />
         <item itemvalue="Application.LevelOrder102" />
         <item itemvalue="Application.SolveNQueens" />
-        <item itemvalue="Application.LetterCombinations17" />
-        <item itemvalue="Application.Subsets79" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +248,10 @@
       <workItem from="1719968570902" duration="8000" />
       <workItem from="1719997193947" duration="8191000" />
       <workItem from="1720056001060" duration="811000" />
-      <workItem from="1720057961191" duration="5219000" />
+      <workItem from="1720057961191" duration="5700000" />
+      <workItem from="1720149202538" duration="1341000" />
+      <workItem from="1720163188462" duration="3611000" />
+      <workItem from="1720228563249" duration="5284000" />
     </task>
     <servers />
   </component>
@@ -280,11 +286,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/StackTest.java</url>
           <line>49</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/tree/MinMutation433.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

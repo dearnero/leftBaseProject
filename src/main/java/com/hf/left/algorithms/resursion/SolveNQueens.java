@@ -1,6 +1,8 @@
 package com.hf.left.algorithms.resursion;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @description: TODO
@@ -11,6 +13,7 @@ import java.util.*;
 public class SolveNQueens {
 
     public List<List<String>> solveNQueens(int n) {
+
         List<List<String>> ans = new ArrayList<>();
         int[] cols = new int[n];
         boolean[] usedCols = new boolean[n];
@@ -20,18 +23,18 @@ public class SolveNQueens {
         return ans;
     }
 
-    private void helper(int r, int n, int[] cols, boolean[] usedCols, boolean[] ding1, boolean[] ding2, List<List<String>> ans) {
-
-        // 终止条件
-        if(r == n){
+    private void helper(int r, int n, int[] cols,
+                        boolean[] usedCols, boolean[] ding1, boolean[] ding2, List<List<String>> ans) {
+        if (r == n){
             List<String> oneAns = new ArrayList<>();
-            for (int i = 0; i < cols.length; i++) {
+            for (int col : cols) {
                 char[] chars = new char[n];
                 Arrays.fill(chars, '.');
-                chars[cols[i]] = 'Q';
+                chars[col] = 'Q';
                 oneAns.add(new String(chars));
             }
             ans.add(oneAns);
+            return;
         }
         for (int c = 0; c < n; c++) {
             int rc = r - c + n - 1;
@@ -44,9 +47,5 @@ public class SolveNQueens {
         }
     }
 
-
-    public static void main(String[] args) {
-        System.out.println(new SolveNQueens().solveNQueens(8));
-    }
 
 }
