@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/Fib126.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/MySqrt072.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePaths62.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePathsWithObstacles63.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/template.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MySqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MySqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/Fib126.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/Fib126.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePaths62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePaths62.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePathsWithObstacles63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePathsWithObstacles63.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,8 +152,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.UniquePathsWithObstacles63" />
-        <item itemvalue="Application.UniquePaths62" />
         <item itemvalue="Application.Fib126" />
+        <item itemvalue="Application.UniquePaths62" />
         <item itemvalue="Application.MySqrt072" />
         <item itemvalue="Application.MySqrt" />
       </list>
@@ -256,7 +253,7 @@
       <workItem from="1720314254702" duration="4607000" />
       <workItem from="1720401999075" duration="7450000" />
       <workItem from="1720419450969" duration="13000" />
-      <workItem from="1720487309089" duration="1160000" />
+      <workItem from="1720487309089" duration="2575000" />
     </task>
     <servers />
   </component>
@@ -313,6 +310,9 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/left_project$MaxArea11.ic" NAME="MaxArea11 Coverage Results" MODIFIED="1718674764246" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hf.left.algorithms.linkedlist.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/left_project$Fib126.ic" NAME="Fib126 Coverage Results" MODIFIED="1720489194090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hf.left.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/left_project$MergeSortedArrays.ic" NAME="MergeSortedArrays Coverage Results" MODIFIED="1717063141219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hf.left.algorithms.*</FILTER>

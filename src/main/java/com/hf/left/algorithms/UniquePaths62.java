@@ -26,6 +26,8 @@ public class UniquePaths62 {
         return ans[m - 1][n - 1];
     }
 
+
+    // 递推公式：ans[j] = ans[j] + ans[j - 1]
     public int uniquePaths2(int m, int n){
         int[] ans = new int[n];
         Arrays.fill(ans, 1);
