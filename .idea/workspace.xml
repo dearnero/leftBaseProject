@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/LongestCommonSubsequence1143.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/Fib126.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/Fib126.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePaths62.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePaths62.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePathsWithObstacles63.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/UniquePathsWithObstacles63.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +251,7 @@
       <workItem from="1720314254702" duration="4607000" />
       <workItem from="1720401999075" duration="7450000" />
       <workItem from="1720419450969" duration="13000" />
-      <workItem from="1720487309089" duration="2575000" />
+      <workItem from="1720487309089" duration="5355000" />
     </task>
     <servers />
   </component>
