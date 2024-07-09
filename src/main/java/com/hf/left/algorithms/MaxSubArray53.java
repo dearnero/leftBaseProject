@@ -9,12 +9,12 @@ package com.hf.left.algorithms;
 public class MaxSubArray53 {
 
     public int maxSubArray(int[] nums) {
-        int[] ans = new int[nums.length];
-        ans[0] = nums[0];
+
+        int kk = nums[0];
         int maxArea = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            ans[i] = Math.max(ans[i - 1], 0) + nums[i];
-            maxArea = Math.max(maxArea, ans[i]);
+            kk = Math.max(kk, 0) + nums[i];
+            maxArea = Math.max(maxArea, kk);
         }
         return maxArea;
     }
