@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/LongestCommonSubsequence1143.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxSubArray53.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MinimumTotal120.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +82,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniquePathsWithObstacles63">
+  <component name="RunManager" selected="Application.MaxSubArray53">
     <configuration name="Fib126" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.Fib126" />
       <module name="left_project" />
@@ -95,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MySqrt" />
+    <configuration name="MaxSubArray53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MaxSubArray53" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -149,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxSubArray53" />
         <item itemvalue="Application.UniquePathsWithObstacles63" />
         <item itemvalue="Application.Fib126" />
         <item itemvalue="Application.UniquePaths62" />
         <item itemvalue="Application.MySqrt072" />
-        <item itemvalue="Application.MySqrt" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +252,7 @@
       <workItem from="1720314254702" duration="4607000" />
       <workItem from="1720401999075" duration="7450000" />
       <workItem from="1720419450969" duration="13000" />
-      <workItem from="1720487309089" duration="5355000" />
+      <workItem from="1720487309089" duration="8299000" />
     </task>
     <servers />
   </component>
@@ -291,6 +292,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MySqrt.java</url>
           <line>24</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxSubArray53.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
