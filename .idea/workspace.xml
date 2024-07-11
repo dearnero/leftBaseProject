@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit121.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit122.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit123.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit188.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit309.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit714.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit121.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit122.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/MaxProfit122.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,26 +86,13 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxProfit121">
+  <component name="RunManager" selected="Application.MaxProfit309">
     <configuration name="CoinChange322" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.CoinChange322" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.hf.left.algorithms.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Fib126" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.Fib126" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +113,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxSubArray53" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MaxSubArray53" />
+    <configuration name="MaxProfit122" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MaxProfit122" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +126,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePathsWithObstacles63" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.UniquePathsWithObstacles63" />
+    <configuration name="MaxProfit123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MaxProfit123" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.algorithms.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaxProfit309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MaxProfit309" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -150,11 +154,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProfit309" />
+        <item itemvalue="Application.MaxProfit123" />
+        <item itemvalue="Application.MaxProfit122" />
         <item itemvalue="Application.MaxProfit121" />
         <item itemvalue="Application.CoinChange322" />
-        <item itemvalue="Application.MaxSubArray53" />
-        <item itemvalue="Application.UniquePathsWithObstacles63" />
-        <item itemvalue="Application.Fib126" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +257,9 @@
       <workItem from="1720401999075" duration="7450000" />
       <workItem from="1720419450969" duration="13000" />
       <workItem from="1720487309089" duration="8494000" />
-      <workItem from="1720505566130" duration="7781000" />
+      <workItem from="1720505566130" duration="7974000" />
+      <workItem from="1720589463311" duration="61000" />
+      <workItem from="1720662580475" duration="11139000" />
     </task>
     <servers />
   </component>
