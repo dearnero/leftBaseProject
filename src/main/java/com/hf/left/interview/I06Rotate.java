@@ -6,7 +6,7 @@ package com.hf.left.interview;
  * @date: 2024/7/11 21:53
  * @version: 1.0
  */
-public class I189Rotate {
+public class I06Rotate {
 
     public void rotate(int[] nums, int k) {
         reverse(nums, 0, nums.length - 1);
@@ -25,6 +25,6 @@ public class I189Rotate {
     }
 
     public static void main(String[] args) {
-        new I189Rotate().rotate(new int[]{-1,-100,3,99}, 2);
+        new I06Rotate().rotate(new int[]{-1,-100,3,99}, 2);
     }
 }
