@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I189Rotate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I09CanJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I09Jump.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -81,9 +83,9 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.I189Rotate">
-    <configuration name="I189Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.I189Rotate" />
+  <component name="RunManager" selected="Application.I06Rotate">
+    <configuration name="I06Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.I06Rotate" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -149,7 +151,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.I189Rotate" />
+        <item itemvalue="Application.I06Rotate" />
         <item itemvalue="Application.MaxProfit309" />
         <item itemvalue="Application.MaxProfit123" />
         <item itemvalue="Application.MaxProfit122" />
@@ -255,7 +257,10 @@
       <workItem from="1720505566130" duration="7974000" />
       <workItem from="1720589463311" duration="61000" />
       <workItem from="1720662580475" duration="14515000" />
-      <workItem from="1720705789970" duration="1897000" />
+      <workItem from="1720705789970" duration="2096000" />
+      <workItem from="1720855364907" duration="2592000" />
+      <workItem from="1720918978740" duration="600000" />
+      <workItem from="1720948041826" duration="975000" />
     </task>
     <servers />
   </component>
