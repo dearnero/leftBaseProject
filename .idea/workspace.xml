@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I11HIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I12RandomizedSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I13ProductExceptSelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I17RomanToInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I19lengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I21ReverseWords.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I09Jump.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/I10Jump.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +84,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.I11HIndex">
+  <component name="RunManager" selected="Application.I21ReverseWords">
     <configuration name="I06Rotate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.I06Rotate" />
       <module name="left_project" />
@@ -125,12 +124,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit123" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MaxProfit123" />
+    <configuration name="I19lengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.I19lengthOfLastWord" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.*" />
+          <option name="PATTERN" value="com.hf.left.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,12 +137,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxProfit309" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.algorithms.MaxProfit309" />
+    <configuration name="I21ReverseWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.I21ReverseWords" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.algorithms.*" />
+          <option name="PATTERN" value="com.hf.left.interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.I21ReverseWords" />
+        <item itemvalue="Application.I19lengthOfLastWord" />
         <item itemvalue="Application.I11HIndex" />
         <item itemvalue="Application.I10Jump" />
         <item itemvalue="Application.I06Rotate" />
-        <item itemvalue="Application.MaxProfit309" />
-        <item itemvalue="Application.MaxProfit123" />
       </list>
     </recent_temporary>
   </component>
@@ -263,7 +262,7 @@
       <workItem from="1720855364907" duration="2592000" />
       <workItem from="1720918978740" duration="600000" />
       <workItem from="1720948041826" duration="1851000" />
-      <workItem from="1721024301680" duration="6231000" />
+      <workItem from="1721024301680" duration="10817000" />
     </task>
     <servers />
   </component>
@@ -304,6 +303,26 @@
           <line>24</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/interview/I17RomanToInt.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/interview/I19lengthOfLastWord.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/interview/I21ReverseWords.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/interview/I21ReverseWords.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -329,6 +348,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/left_project$MySqrt.ic" NAME="MySqrt Coverage Results" MODIFIED="1720342772486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hf.left.algorithms.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/left_project$I21ReverseWords.ic" NAME="I21ReverseWords Coverage Results" MODIFIED="1721051196460" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hf.left.interview.*</FILTER>
     </SUITE>
   </component>
 </project>
