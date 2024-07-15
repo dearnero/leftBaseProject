@@ -1,3 +1,4 @@
+
 package com.hf.left.interview;
 
 /**
@@ -6,19 +7,23 @@ package com.hf.left.interview;
  * @date: 2024/7/13 20:33
  * @version: 1.0
  */
-public class I09Jump {
+public class I10Jump {
     public int jump(int[] nums) {
         int length = nums.length;
         int end = 0;
-        int maxPosition = 0;
+        int maxPos = 0;
         int steps = 0;
         for (int i = 0; i < length - 1; i++) {
-            maxPosition = Math.max(maxPosition, i + nums[i]);
+            maxPos = Math.max(maxPos, i + nums[i]);
             if (i == end){
-                end = maxPosition;
+                end = maxPos;
                 steps++;
             }
         }
         return steps;
+    }
+
+    public static void main(String[] args) {
+        new I10Jump().jump(new int[]{2,3,0,1,4});
     }
 }
