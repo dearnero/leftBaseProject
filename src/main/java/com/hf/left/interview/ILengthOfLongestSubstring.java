@@ -11,18 +11,19 @@ import java.util.Set;
  */
 public class ILengthOfLongestSubstring {
     public int lengthOfLongestSubstring(String s) {
-        Set<Character> occ = new HashSet<>();
-        int n = s.length();
-        int rk = -1, ans = 0;
-        for (int i = 0; i < n; ++i) {
-            if (i != 0) {
-                occ.remove(s.charAt(i - 1));
+        if (s.length() == 0) return 0;
+        Set<Character> set = new HashSet<>();
+        int left = 0, right = -1, ans = 0;
+        while (left < s.length()){
+            if (left != 0){
+                set.remove(s.charAt(left - 1));
             }
-            while (rk + 1 < n && !occ.contains(s.charAt(rk + 1))) {
-                occ.add(s.charAt(rk + 1));
-                ++rk;
+            while (right + 1 < s.length() && !set.contains(s.charAt(right + 1))){
+                set.add(s.charAt(right + 1));
+                right++;
             }
-            ans = Math.max(ans, rk - i + 1);
+            ans = Math.max(ans, right - left + 1);
+            left++;
         }
         return ans;
     }
