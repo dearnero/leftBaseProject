@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/IBuildTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/IIsHappy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/ILongestConsecutive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/ISsSameTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/ITrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/IMinWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/ITwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +84,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IMerge">
+  <component name="RunManager" selected="Application.IMinWindow">
     <configuration name="IIsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.IIsIsomorphic" />
       <module name="left_project" />
@@ -140,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IMySqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.IMySqrt" />
+    <configuration name="IMinWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.IMinWindow" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -155,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IMinWindow" />
         <item itemvalue="Application.IMerge" />
         <item itemvalue="Application.IIsIsomorphic" />
         <item itemvalue="Application.ILengthOfLongestSubstring" />
         <item itemvalue="Application.IMinSubArrayLen" />
-        <item itemvalue="Application.IMySqrt" />
       </list>
     </recent_temporary>
   </component>
@@ -276,7 +273,8 @@
       <workItem from="1721565126244" duration="4282000" />
       <workItem from="1721652493525" duration="7648000" />
       <workItem from="1721698307741" duration="6328000" />
-      <workItem from="1721823896188" duration="23271000" />
+      <workItem from="1721823896188" duration="23356000" />
+      <workItem from="1721989609908" duration="6101000" />
     </task>
     <servers />
   </component>
