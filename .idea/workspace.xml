@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/IMinWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/interview/ITwoSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HDetectCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFirstMissingPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGetIntersectionNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSubarraySum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +87,33 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.IMinWindow">
+  <component name="RunManager" selected="Application.HFirstMissingPositive">
+    <configuration name="HFirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HFirstMissingPositive" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.hot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HSubarraySum" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.hot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IIsIsomorphic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.IIsIsomorphic" />
       <module name="left_project" />
@@ -98,34 +127,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ILengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.ILengthOfLongestSubstring" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="IMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.IMerge" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.interview.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="IMinSubArrayLen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.interview.IMinSubArrayLen" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HFirstMissingPositive" />
+        <item itemvalue="Application.HSubarraySum" />
         <item itemvalue="Application.IMinWindow" />
         <item itemvalue="Application.IMerge" />
         <item itemvalue="Application.IIsIsomorphic" />
-        <item itemvalue="Application.ILengthOfLongestSubstring" />
-        <item itemvalue="Application.IMinSubArrayLen" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +277,9 @@
       <workItem from="1721652493525" duration="7648000" />
       <workItem from="1721698307741" duration="6328000" />
       <workItem from="1721823896188" duration="23356000" />
-      <workItem from="1721989609908" duration="6101000" />
+      <workItem from="1721989609908" duration="6811000" />
+      <workItem from="1722235060526" duration="5542000" />
+      <workItem from="1722261147208" duration="1793000" />
     </task>
     <servers />
   </component>
@@ -365,6 +370,11 @@
           <line>22</line>
           <option name="timeStamp" value="65" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSubarraySum.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
@@ -387,6 +397,9 @@
     </SUITE>
     <SUITE FILE_PATH="coverage/left_project$MergeSortedArrays.ic" NAME="MergeSortedArrays Coverage Results" MODIFIED="1717063141219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hf.left.algorithms.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/left_project$HSubarraySum.ic" NAME="HSubarraySum Coverage Results" MODIFIED="1722240591472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hf.left.hot.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/left_project$MySqrt.ic" NAME="MySqrt Coverage Results" MODIFIED="1720342772486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.hf.left.algorithms.*</FILTER>
