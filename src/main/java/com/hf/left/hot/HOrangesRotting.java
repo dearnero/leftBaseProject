@@ -6,7 +6,7 @@ import java.util.LinkedList;
 /**
  * @description:
  * @link <a href = "https://leetcode.cn/problems/rotting-oranges/?envType=study-plan-v2&envId=top-100-liked">994. 腐烂的橘子</a>
- * 使用BFS:
+ * 算法：BFS
  * 1. 首先找到所有的腐败橘子，以及统计到所有的新鲜橘子freshCount
  * 2. 将腐败橘子入队，使用deque
  * 3. 将第一批腐败橘子出队，进行对四周扩散，每扩散一次周期++

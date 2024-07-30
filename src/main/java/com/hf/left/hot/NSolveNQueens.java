@@ -5,7 +5,16 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @description: TODO
+ * @description: 51. N 皇后
+ * 回溯算法的经典案例
+ * 1. 初始化好结果值，即每一行的列数组
+ * 2. 初始化好已使用的列(n)、撇(2*n+1)、捺(2*n+1)
+ * 3. 按照行的个数进行下推, 终止条件row == n
+ *  3.1 对结果进行按需输出
+ * 4. 注意撇规则：row+c都相等，捺规则：row-c都相等
+ *  4.1 为了避免捺规则的数组越界，处理为row-c + n -1
+ * 5. 当前层的状态置回false
+ * @link <a href = "https://leetcode.cn/problems/n-queens/description/?envType=study-plan-v2&envId=top-100-liked">N 皇后</a>
  * @author: huang fu
  * @date: 2024/7/30 14:31
  * @version: 1.0

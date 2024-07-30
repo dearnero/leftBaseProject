@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCanFinish.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCombinationSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HOrangesRotting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HPermute.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/NSolveNQueens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCanFinish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCanFinish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCombinationSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCombinationSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HDetectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HDetectCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFirstMissingPositive.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFirstMissingPositive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGetIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGetIntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HOrangesRotting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HOrangesRotting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HPermute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HPermute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSortList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSortList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSubarraySum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSubarraySum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/NSolveNQueens.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/NSolveNQueens.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +285,11 @@
       <workItem from="1721989609908" duration="6811000" />
       <workItem from="1722235060526" duration="5542000" />
       <workItem from="1722261147208" duration="1865000" />
-      <workItem from="1722301542049" duration="12073000" />
+      <workItem from="1722301542049" duration="12168000" />
+      <workItem from="1722322967664" duration="2000" />
+      <workItem from="1722327724851" duration="249000" />
+      <workItem from="1722341867209" duration="1283000" />
+      <workItem from="1722344299674" duration="2764000" />
     </task>
     <servers />
   </component>
@@ -373,7 +382,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSubarraySum.java</url>
-          <line>56</line>
+          <line>62</line>
           <option name="timeStamp" value="67" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -383,7 +392,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCanFinish.java</url>
-          <line>37</line>
+          <line>43</line>
           <option name="timeStamp" value="83" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -393,13 +402,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCanFinish.java</url>
-          <line>12</line>
+          <line>18</line>
           <option name="timeStamp" value="85" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HPermute.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

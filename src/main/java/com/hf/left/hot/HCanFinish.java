@@ -3,7 +3,13 @@ package com.hf.left.hot;
 import java.util.*;
 
 /**
- * @description: TODO
+ * @description: 207. 课程表
+ * 算法: 入度表 + 邻接表 + bfs(广度优先遍历)
+ * 1. 入度表：统计每个节点的入度数
+ * 2. 邻接表：每个节点执行下一个节点的数组
+ * 3. 对于bfs首先处理入度数为0的值
+ *  3.1 处理完成之后，从邻接表中获取到下一批节点列表，判断是否可以再入队处理（入度数为0）
+ * @link <a href = "https://leetcode.cn/problems/course-schedule/?envType=study-plan-v2&envId=top-100-liked">207. 课程表</a>
  * @author: huang fu
  * @date: 2024/7/30 10:56
  * @version: 1.0

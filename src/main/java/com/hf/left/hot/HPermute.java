@@ -3,7 +3,11 @@ package com.hf.left.hot;
 import java.util.*;
 
 /**
- * @description: TODO
+ * @description: 46. 全排列
+ * 算法：回溯算法
+ * 1. 假设每个int[nums.length]的每个位置都可以放一个nums数字，但是不能重复
+ * 2. 当下推到下一层完成之后，需要清除当前层的状态
+ * @link <a href = "https://leetcode.cn/problems/permutations/?envType=study-plan-v2&envId=top-100-liked">46. 全排列</a>
  * @author: huang fu
  * @date: 2024/7/30 12:03
  * @version: 1.0
