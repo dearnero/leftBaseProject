@@ -3,13 +3,17 @@ package com.hf.left.hot;
 import java.util.Arrays;
 
 /**
- * @description: TODO
+ * @description: 打家劫舍
+ * 递归+记忆话搜索 或 动态规划
+ * 状态定义: ans[i] 抢劫i间房子的最大收益
+ * 状态转移方程: ans[i] = Math.max(ans[i - 2] + nums[i], ans[i - 1])
+ *
+ * @link <a href = "https://leetcode.cn/problems/house-robber?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/7/31 10:28
  * @version: 1.0
  */
 public class HRob {
-
     public int rob(int[] nums) {
         if (nums.length == 1) return nums[0];
         int f0 = nums[0], f1 = Math.max(nums[1], nums[0]);

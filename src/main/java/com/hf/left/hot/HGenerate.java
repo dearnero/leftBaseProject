@@ -5,7 +5,16 @@ import java.util.Collections;
 import java.util.List;
 
 /**
- * @description: TODO
+ * @description: 杨辉三角
+ * 算法：动态规划
+ * 状态定义：f(n)(j) 当前行列位置的值
+ * 状态转移方式：
+ * if(j == 0 || j ==i) {
+ *     f(n)(j) = 1
+ * } else {
+ *     f(n)(j) = f(n - 1)(j - 1) + f(n - 1)(j)
+ * }
+ * @link <a href="https://leetcode.cn/problems/pascals-triangle/?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/7/31 09:46
  * @version: 1.0

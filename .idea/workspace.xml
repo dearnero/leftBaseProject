@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HClimbStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCoinChange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HHasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRob.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HClimbStairs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCoinChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRob.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +284,8 @@
       <workItem from="1722327724851" duration="249000" />
       <workItem from="1722341867209" duration="1283000" />
       <workItem from="1722344299674" duration="2795000" />
-      <workItem from="1722387910547" duration="10030000" />
+      <workItem from="1722387910547" duration="10406000" />
+      <workItem from="1722435269980" duration="1481000" />
     </task>
     <servers />
   </component>
@@ -403,12 +403,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HClimbStairs.java</url>
-          <line>13</line>
+          <line>17</line>
           <option name="timeStamp" value="89" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerate.java</url>
-          <line>27</line>
+          <line>36</line>
           <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>

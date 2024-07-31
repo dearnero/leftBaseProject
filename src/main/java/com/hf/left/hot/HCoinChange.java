@@ -5,7 +5,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description: TODO
+ * @description: 322. 零钱兑换
+ * 算法：递归+记忆化搜索 或 动态规划（状态定义、状态转移方程）
+ * 状态定义: ans[i] i金额的最少硬币个数
+ * 状态转移方程：ans[i] = Math.min(ans[i], ans[i - coin] + 1) ｜ i金额的最少的硬币个数 = 当前金额 - coins[0...k]的最小值
+ * @link <a href = "https://leetcode.cn/problems/coin-change/?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/7/31 11:50
  * @version: 1.0

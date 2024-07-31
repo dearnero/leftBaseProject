@@ -4,7 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description: TODO
+ * @description: 爬楼梯
+ * 算法：递归+记忆化搜索 或 动态规划（状态定义、状态转移方程）
+ * 状态定义：f(n) 第n阶台阶有多少种不同的方法
+ * 状态转移方程：f(n) = f(n -1) + f(n -2)
+ * @link <a href = "https://leetcode.cn/problems/climbing-stairs/?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/7/31 09:10
  * @version: 1.0
