@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerateParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMoveZeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HReverseKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HReverseList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HClimbStairs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HClimbStairs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCoinChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCoinChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRob.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRob.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,20 +87,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HCoinChange">
-    <configuration name="HClimbStairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HClimbStairs" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.hot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HGenerateParenthesis">
     <configuration name="HCoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HCoinChange" />
       <module name="left_project" />
@@ -126,8 +114,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HPermute" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HPermute" />
+    <configuration name="HGenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HGenerateParenthesis" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.hot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HReverseKGroup" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HGenerateParenthesis" />
+        <item itemvalue="Application.HReverseKGroup" />
         <item itemvalue="Application.HCoinChange" />
         <item itemvalue="Application.HRob" />
         <item itemvalue="Application.HGenerate" />
-        <item itemvalue="Application.HClimbStairs" />
-        <item itemvalue="Application.HPermute" />
       </list>
     </recent_temporary>
   </component>
@@ -285,7 +286,8 @@
       <workItem from="1722341867209" duration="1283000" />
       <workItem from="1722344299674" duration="2795000" />
       <workItem from="1722387910547" duration="10406000" />
-      <workItem from="1722435269980" duration="1481000" />
+      <workItem from="1722435269980" duration="1525000" />
+      <workItem from="1722484427172" duration="9527000" />
     </task>
     <servers />
   </component>
@@ -417,6 +419,7 @@
       <pinned-members>
         <PinnedItemInfo parentTag="java.net.URLClassLoader$3" memberName="this$0" />
         <PinnedItemInfo parentTag="java.net.URLClassLoader$3" memberName="e" />
+        <PinnedItemInfo parentTag="com.hf.left.algorithms.definition.ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
