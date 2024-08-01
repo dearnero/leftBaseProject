@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @description: TODO
+ * @description: 22. 括号生成
+ * 算法: 回溯算法
+ * @link <a href = "https://leetcode.cn/problems/generate-parentheses/?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/8/1 15:33
  * @version: 1.0

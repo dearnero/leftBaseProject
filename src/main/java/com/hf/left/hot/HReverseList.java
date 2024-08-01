@@ -3,7 +3,9 @@ package com.hf.left.hot;
 import com.hf.left.algorithms.definition.ListNode;
 
 /**
- * @description: TODO
+ * @description: 206. 反转链表
+ * 1. 代码要很熟练
+ * @link <a href = "https://leetcode.cn/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/8/1 12:28
  * @version: 1.0
