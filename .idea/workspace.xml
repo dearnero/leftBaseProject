@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HLongestConsecutive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HTrap.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerateParenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HGenerateParenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HReverseList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HReverseList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -285,7 +285,8 @@
       <workItem from="1722387910547" duration="10406000" />
       <workItem from="1722435269980" duration="1525000" />
       <workItem from="1722484427172" duration="9645000" />
-      <workItem from="1722512090012" duration="882000" />
+      <workItem from="1722512090012" duration="1522000" />
+      <workItem from="1722647843125" duration="6151000" />
     </task>
     <servers />
   </component>
