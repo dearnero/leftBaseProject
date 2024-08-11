@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxSlidingWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HIsValid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMinPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +44,9 @@
         <option name="mavenHome" value="/usr/local/Cellar/maven/3.9.3/libexec" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2dCpazWg8pKZZvZP1aY1iDcmdsx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -84,35 +89,22 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HMaxSlidingWindow">
-    <configuration name="HGenerateParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HGenerateParenthesis" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.hot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HIsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HIsPalindrome" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.hot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.HMaxProduct">
     <configuration name="HLengthOfLongestSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HLengthOfLongestSubstring" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.hot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HMaxProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HMaxProduct" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -137,8 +129,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HReverseKGroup" />
+    <configuration name="HMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HMerge" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.hot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HMinPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HMinPathSum" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -152,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HMaxProduct" />
+        <item itemvalue="Application.HMinPathSum" />
+        <item itemvalue="Application.HMerge" />
         <item itemvalue="Application.HMaxSlidingWindow" />
         <item itemvalue="Application.HLengthOfLongestSubstring" />
-        <item itemvalue="Application.HIsPalindrome" />
-        <item itemvalue="Application.HGenerateParenthesis" />
-        <item itemvalue="Application.HReverseKGroup" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +294,8 @@
       <workItem from="1722647843125" duration="6184000" />
       <workItem from="1722739563324" duration="5551000" />
       <workItem from="1722848172779" duration="112000" />
-      <workItem from="1723253265685" duration="12310000" />
+      <workItem from="1723253265685" duration="12430000" />
+      <workItem from="1723344935179" duration="7014000" />
     </task>
     <servers />
   </component>
@@ -424,6 +430,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxSlidingWindow.java</url>
           <line>16</line>
           <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMerge.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
