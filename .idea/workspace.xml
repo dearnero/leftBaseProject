@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HAddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSearchInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HInorderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxDepth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="AnnotationType" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -293,7 +293,10 @@
       <workItem from="1722739563324" duration="5551000" />
       <workItem from="1722848172779" duration="112000" />
       <workItem from="1723253265685" duration="12430000" />
-      <workItem from="1723344935179" duration="12775000" />
+      <workItem from="1723344935179" duration="13812000" />
+      <workItem from="1723424165263" duration="12000" />
+      <workItem from="1723902152612" duration="1147000" />
+      <workItem from="1723942447229" duration="2570000" />
     </task>
     <servers />
   </component>
@@ -433,11 +436,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMerge.java</url>
           <line>19</line>
           <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSearchInsert.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="104" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
