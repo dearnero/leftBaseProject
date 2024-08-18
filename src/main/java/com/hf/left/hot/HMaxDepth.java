@@ -33,8 +33,8 @@ public class HMaxDepth {
         if (root == null){
             return 0;
         }else{
-            int i = maxDepth(root.left);
-            int j = maxDepth(root.right);
+            int i = maxDepth2(root.left);
+            int j = maxDepth2(root.right);
             return Math.max(i,j) + 1;
         }
     }
