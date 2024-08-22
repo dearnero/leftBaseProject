@@ -1,7 +1,5 @@
 package com.hf.left.operation;
 
-import jdk.internal.util.xml.impl.Pair;
-
 public class GeneralizedType {
 
     public static void main(String[] args) {
