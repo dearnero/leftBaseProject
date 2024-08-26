@@ -7,6 +7,9 @@ import com.hf.left.algorithms.definition.ListNode;
  * 1. 需要技巧: 通过快慢双指针的方式，确定待删除节点的前继节点
  * 2. 注意: while循环终止条件是cur.next == null，不是cur==null
  * 3. 注意: 删除节点的代码:pre.next = pre.next.next;
+ * X    1   2   3   X   ｜   2
+ * pre      cur
+ *      pre     cur
  * <a href="https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/8/26 18:43

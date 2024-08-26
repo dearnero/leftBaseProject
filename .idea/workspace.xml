@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRemoveNthFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRotate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRemoveNthFromEnd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRemoveNthFromEnd.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -324,7 +322,7 @@
       <workItem from="1724662600128" duration="125000" />
       <workItem from="1724662742937" duration="1843000" />
       <workItem from="1724665587359" duration="501000" />
-      <workItem from="1724668380350" duration="1278000" />
+      <workItem from="1724668380350" duration="1644000" />
     </task>
     <servers />
   </component>
@@ -469,11 +467,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSubsets.java</url>
           <line>20</line>
           <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HRemoveNthFromEnd.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="98" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
