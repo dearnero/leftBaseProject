@@ -14,6 +14,7 @@ import com.hf.left.algorithms.definition.ListNode;
  * @author: huang fu
  * @date: 2024/8/26 18:43
  * @version: 1.0
+ *
  */
 public class HRemoveNthFromEnd {
 
