@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HIsValidBST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HLevelOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HNumIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFindKthLargest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HPartitionLabels.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +66,7 @@
     "Application.GetClass.executor": "Run",
     "Application.HIsValidBST.executor": "Debug",
     "Application.HNumIslands.executor": "Debug",
+    "Application.HPartitionLabels.executor": "Debug",
     "Application.HRemoveNthFromEnd.executor": "Debug",
     "Application.MainExample.executor": "Debug",
     "Maven.left_project [-Dtest=com.hf.left.MySqrt072...].executor": "Debug",
@@ -102,7 +102,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HNumIslands">
+  <component name="RunManager" selected="Application.HPartitionLabels">
     <configuration name="FunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.operation.function.FunctionInterface" />
       <module name="left_project" />
@@ -155,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.operation.consumer.MainExample" />
+    <configuration name="HPartitionLabels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HPartitionLabels" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.operation.consumer.*" />
+          <option name="PATTERN" value="com.hf.left.hot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HPartitionLabels" />
         <item itemvalue="Application.HNumIslands" />
         <item itemvalue="Application.HIsValidBST" />
         <item itemvalue="Application.FunctionInterface" />
         <item itemvalue="Application.GetClass" />
-        <item itemvalue="Application.MainExample" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +335,7 @@
       <workItem from="1724724402113" duration="8218000" />
       <workItem from="1725003096786" duration="2577000" />
       <workItem from="1725094413091" duration="2572000" />
-      <workItem from="1725343546525" duration="2522000" />
+      <workItem from="1725343546525" duration="5794000" />
     </task>
     <servers />
   </component>
