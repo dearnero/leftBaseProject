@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/algorithms/definition/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCopyRandomList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSwapPairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCanJump.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxProfit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +64,7 @@
     "Application.BaseThread.executor": "Run",
     "Application.FunctionInterface.executor": "Run",
     "Application.GetClass.executor": "Run",
+    "Application.HCanJump.executor": "Debug",
     "Application.HIsValidBST.executor": "Debug",
     "Application.HNumIslands.executor": "Debug",
     "Application.HPartitionLabels.executor": "Debug",
@@ -104,13 +104,13 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HSwapPairs">
-    <configuration name="FunctionInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.operation.function.FunctionInterface" />
+  <component name="RunManager" selected="Application.HCanJump">
+    <configuration name="HCanJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HCanJump" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hf.left.operation.function.*" />
+          <option name="PATTERN" value="com.hf.left.hot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HCanJump" />
         <item itemvalue="Application.HSwapPairs" />
         <item itemvalue="Application.HPartitionLabels" />
         <item itemvalue="Application.HNumIslands" />
         <item itemvalue="Application.HIsValidBST" />
-        <item itemvalue="Application.FunctionInterface" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +339,7 @@
       <workItem from="1725094413091" duration="2572000" />
       <workItem from="1725343546525" duration="5854000" />
       <workItem from="1725546420277" duration="674000" />
-      <workItem from="1725603051019" duration="5744000" />
+      <workItem from="1725603051019" duration="11540000" />
     </task>
     <servers />
   </component>
