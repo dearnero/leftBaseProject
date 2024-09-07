@@ -1,7 +1,9 @@
 package com.hf.left.hot;
 
 /**
- * @description: TODO
+ * @description: 279. 完全平方数
+ * dp[i】= min(1 + dp[i - j * j])
+ * <a href ="https://leetcode.cn/problems/perfect-squares/description/?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/9/7 20:49
  * @version: 1.0
