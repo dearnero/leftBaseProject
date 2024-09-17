@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFindDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSortedArrayToBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HLRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMergeKLists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     "Application.HFindDuplicate.executor": "Debug",
     "Application.HIsValidBST.executor": "Debug",
     "Application.HJump.executor": "Debug",
+    "Application.HMergeKLists.executor": "Debug",
     "Application.HNumIslands.executor": "Debug",
     "Application.HPartitionLabels.executor": "Debug",
     "Application.HRemoveNthFromEnd.executor": "Debug",
@@ -106,7 +107,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HFindDuplicate">
+  <component name="RunManager" selected="Application.HMergeKLists">
     <configuration name="HCanJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HCanJump" />
       <module name="left_project" />
@@ -146,8 +147,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HPartitionLabels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HPartitionLabels" />
+    <configuration name="HMergeKLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HMergeKLists" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -174,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HMergeKLists" />
         <item itemvalue="Application.HFindDuplicate" />
         <item itemvalue="Application.HJump" />
         <item itemvalue="Application.HCanJump" />
         <item itemvalue="Application.HSwapPairs" />
-        <item itemvalue="Application.HPartitionLabels" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +344,7 @@
       <workItem from="1725546420277" duration="674000" />
       <workItem from="1725603051019" duration="15711000" />
       <workItem from="1726489061107" duration="1350000" />
-      <workItem from="1726539212725" duration="9247000" />
+      <workItem from="1726539212725" duration="17194000" />
     </task>
     <servers />
   </component>
@@ -518,7 +519,6 @@
       <pinned-members>
         <PinnedItemInfo parentTag="java.net.URLClassLoader$3" memberName="this$0" />
         <PinnedItemInfo parentTag="java.net.URLClassLoader$3" memberName="e" />
-        <PinnedItemInfo parentTag="com.hf.left.algorithms.definition.ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
