@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFindDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HSortedArrayToBST.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HNumSquares.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HNumSquares.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +65,7 @@
     "Application.FunctionInterface.executor": "Run",
     "Application.GetClass.executor": "Run",
     "Application.HCanJump.executor": "Debug",
+    "Application.HFindDuplicate.executor": "Debug",
     "Application.HIsValidBST.executor": "Debug",
     "Application.HJump.executor": "Debug",
     "Application.HNumIslands.executor": "Debug",
@@ -104,7 +106,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HJump">
+  <component name="RunManager" selected="Application.HFindDuplicate">
     <configuration name="HCanJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HCanJump" />
       <module name="left_project" />
@@ -118,8 +120,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HJump" />
+    <configuration name="HFindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HFindDuplicate" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +133,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HNumIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HNumIslands" />
+    <configuration name="HJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HJump" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -172,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HFindDuplicate" />
         <item itemvalue="Application.HJump" />
         <item itemvalue="Application.HCanJump" />
         <item itemvalue="Application.HSwapPairs" />
         <item itemvalue="Application.HPartitionLabels" />
-        <item itemvalue="Application.HNumIslands" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +341,9 @@
       <workItem from="1725094413091" duration="2572000" />
       <workItem from="1725343546525" duration="5854000" />
       <workItem from="1725546420277" duration="674000" />
-      <workItem from="1725603051019" duration="15102000" />
+      <workItem from="1725603051019" duration="15711000" />
+      <workItem from="1726489061107" duration="1350000" />
+      <workItem from="1726539212725" duration="9247000" />
     </task>
     <servers />
   </component>
@@ -497,6 +501,16 @@
             <option name="lambda-ordinal" value="-1" />
           </properties>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFindDuplicate.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFindDuplicate.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="105" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
