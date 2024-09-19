@@ -13,18 +13,18 @@ import java.util.LinkedList;
 public class HMaxSlidingWindow {
 
     public int[] maxSlidingWindow(int[] nums, int k) {
-        int n = nums.length;
+        int length = nums.length;
         Deque<Integer> deque = new LinkedList<>();
         for (int i = 0; i < k; i++) {
-            while (!deque.isEmpty() && nums[i] >= nums[deque.peekLast()]){
+            if (!deque.isEmpty() && nums[i] > nums[deque.peekLast()]){
                 deque.pollLast();
             }
             deque.offerLast(i);
         }
-        int[] ans = new int[n - k + 1];
+        int[] ans = new int[length - k + 1];
         ans[0] = nums[deque.peekFirst()];
-        for (int i = k; i < n; ++i){
-            while (!deque.isEmpty() && nums[i] >= nums[deque.peekLast()]){
+        for (int i = k; i < length; i++) {
+            if (!deque.isEmpty() && nums[i] > nums[deque.peekLast()]){
                 deque.pollLast();
             }
             deque.offerLast(i);
@@ -37,6 +37,6 @@ public class HMaxSlidingWindow {
     }
 
     public static void main(String[] args) {
-        new HMaxSlidingWindow().maxSlidingWindow(new int[]{1,3,-1,-3,5,3,6,7}, 3);
+        new HMaxSlidingWindow().maxSlidingWindow(new int[]{7,2, 4}, 2);
     }
 }
