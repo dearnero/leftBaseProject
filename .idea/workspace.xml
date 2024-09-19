@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HBuildTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxSlidingWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxSlidingWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HBuildTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HBuildTree.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,7 +345,7 @@
       <workItem from="1726489061107" duration="1350000" />
       <workItem from="1726539212725" duration="17372000" />
       <workItem from="1726620985454" duration="2934000" />
-      <workItem from="1726709017464" duration="6262000" />
+      <workItem from="1726709017464" duration="6469000" />
     </task>
     <servers />
   </component>

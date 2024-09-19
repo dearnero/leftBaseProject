@@ -6,7 +6,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description: TODO
+ * @description: 105. 从前序与中序遍历序列构造二叉树
+ * 1. 很锻炼对于树形结构的操作
+ * 2. 关键在于找到左右子树，然后采用递归进行处理
+ * <a href="https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/?envType=study-plan-v2&envId=top-100-liked"></a>
  * @author: huang fu
  * @date: 2024/9/19 10:28
  * @version: 1.0
