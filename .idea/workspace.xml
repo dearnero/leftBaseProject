@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HExist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HLetterCombinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMinStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HPartition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +73,7 @@
     "Application.HMaxSlidingWindow.executor": "Debug",
     "Application.HMergeKLists.executor": "Debug",
     "Application.HNumIslands.executor": "Debug",
+    "Application.HPartition.executor": "Debug",
     "Application.HPartitionLabels.executor": "Debug",
     "Application.HRemoveNthFromEnd.executor": "Debug",
     "Application.HSwapPairs.executor": "Debug",
@@ -110,22 +111,9 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HExist">
+  <component name="RunManager" selected="Application.HPartition">
     <configuration name="HExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HExist" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.hot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HFindDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HFindDuplicate" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -176,13 +164,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HPartition" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.hot.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HPartition" />
         <item itemvalue="Application.HExist" />
         <item itemvalue="Application.HLetterCombinations" />
         <item itemvalue="Application.HMaxSlidingWindow" />
         <item itemvalue="Application.HMergeKLists" />
-        <item itemvalue="Application.HFindDuplicate" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +352,7 @@
       <workItem from="1726620985454" duration="2934000" />
       <workItem from="1726709017464" duration="6605000" />
       <workItem from="1726796764758" duration="6033000" />
-      <workItem from="1726968040974" duration="4409000" />
+      <workItem from="1726968040974" duration="12980000" />
     </task>
     <servers />
   </component>
