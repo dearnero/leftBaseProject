@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HLowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HMaxPathSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HExist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HLetterCombinations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,42 +59,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BaseThread.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FunctionInterface.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GetClass.executor&quot;: &quot;Run&quot;,
-    &quot;Application.HCanJump.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HFindDuplicate.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HIsValidBST.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HJump.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HMaxSlidingWindow.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HMergeKLists.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HNumIslands.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HPartitionLabels.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HRemoveNthFromEnd.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.HSwapPairs.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MainExample.executor&quot;: &quot;Debug&quot;,
-    &quot;Maven.left_project [-Dtest=com.hf.left.MySqrt072...].executor&quot;: &quot;Debug&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/huangfu/code/left_project&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BaseThread.executor": "Run",
+    "Application.FunctionInterface.executor": "Run",
+    "Application.GetClass.executor": "Run",
+    "Application.HCanJump.executor": "Debug",
+    "Application.HExist.executor": "Debug",
+    "Application.HFindDuplicate.executor": "Debug",
+    "Application.HIsValidBST.executor": "Debug",
+    "Application.HJump.executor": "Debug",
+    "Application.HLetterCombinations.executor": "Debug",
+    "Application.HMaxSlidingWindow.executor": "Debug",
+    "Application.HMergeKLists.executor": "Debug",
+    "Application.HNumIslands.executor": "Debug",
+    "Application.HPartitionLabels.executor": "Debug",
+    "Application.HRemoveNthFromEnd.executor": "Debug",
+    "Application.HSwapPairs.executor": "Debug",
+    "Application.MainExample.executor": "Debug",
+    "Maven.left_project [-Dtest=com.hf.left.MySqrt072...].executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/huangfu/code/left_project",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hf.left.netty" />
@@ -108,9 +110,9 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HMaxSlidingWindow">
-    <configuration name="HCanJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HCanJump" />
+  <component name="RunManager" selected="Application.HExist">
+    <configuration name="HExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HExist" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -135,8 +137,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HJump" />
+    <configuration name="HLetterCombinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HLetterCombinations" />
       <module name="left_project" />
       <extension name="coverage">
         <pattern>
@@ -176,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HExist" />
+        <item itemvalue="Application.HLetterCombinations" />
         <item itemvalue="Application.HMaxSlidingWindow" />
         <item itemvalue="Application.HMergeKLists" />
         <item itemvalue="Application.HFindDuplicate" />
-        <item itemvalue="Application.HJump" />
-        <item itemvalue="Application.HCanJump" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +350,8 @@
       <workItem from="1726539212725" duration="17372000" />
       <workItem from="1726620985454" duration="2934000" />
       <workItem from="1726709017464" duration="6605000" />
-      <workItem from="1726796764758" duration="5994000" />
+      <workItem from="1726796764758" duration="6033000" />
+      <workItem from="1726968040974" duration="4409000" />
     </task>
     <servers />
   </component>
@@ -511,6 +514,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HFindDuplicate.java</url>
           <line>26</line>
           <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/hf/left/hot/HExist.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="109" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
