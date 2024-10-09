@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HLargestRectangleArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HWordBreak.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/dp/MinCoin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCanPartition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +86,7 @@
     "Application.HSwapPairs.executor": "Debug",
     "Application.HWordBreak.executor": "Debug",
     "Application.MainExample.executor": "Debug",
+    "Application.MinCoin.executor": "Run",
     "Maven.left_project [-Dtest=com.hf.left.MySqrt072...].executor": "Debug",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -119,7 +120,7 @@
       <recent name="com.hf.left.algorithms.tree" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HWordBreak">
+  <component name="RunManager" selected="Application.MinCoin">
     <configuration name="HFindMedianSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HFindMedianSortedArrays" />
       <module name="left_project" />
@@ -159,19 +160,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HSearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HSearchRange" />
-      <module name="left_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hf.left.hot.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HWordBreak" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hf.left.hot.HWordBreak" />
       <module name="left_project" />
@@ -185,13 +173,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MinCoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hf.left.dp.MinCoin" />
+      <module name="left_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hf.left.dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinCoin" />
         <item itemvalue="Application.HWordBreak" />
         <item itemvalue="Application.HLargestRectangleArea" />
         <item itemvalue="Application.HFindMin" />
         <item itemvalue="Application.HFindMedianSortedArrays" />
-        <item itemvalue="Application.HSearchRange" />
       </list>
     </recent_temporary>
   </component>
@@ -365,7 +366,8 @@
       <workItem from="1727143625462" duration="5940000" />
       <workItem from="1727230291894" duration="2256000" />
       <workItem from="1727332155244" duration="4935000" />
-      <workItem from="1727399129947" duration="6204000" />
+      <workItem from="1727399129947" duration="6659000" />
+      <workItem from="1728439037570" duration="4929000" />
     </task>
     <servers />
   </component>
