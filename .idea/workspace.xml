@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="942803ac-633f-479b-9866-7c98f3877d68" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/dp/MinCoin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/hot/HCanPartition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hf/left/dp/MinCoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hf/left/dp/MinCoin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,53 +59,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.BaseThread.executor": "Run",
-    "Application.FunctionInterface.executor": "Run",
-    "Application.GetClass.executor": "Run",
-    "Application.HCanJump.executor": "Debug",
-    "Application.HDecodeString.executor": "Debug",
-    "Application.HExist.executor": "Debug",
-    "Application.HFindDuplicate.executor": "Debug",
-    "Application.HFindMedianSortedArrays.executor": "Debug",
-    "Application.HFindMin.executor": "Debug",
-    "Application.HIsValidBST.executor": "Debug",
-    "Application.HJump.executor": "Debug",
-    "Application.HLargestRectangleArea.executor": "Debug",
-    "Application.HLetterCombinations.executor": "Debug",
-    "Application.HMaxSlidingWindow.executor": "Debug",
-    "Application.HMergeKLists.executor": "Debug",
-    "Application.HNumIslands.executor": "Debug",
-    "Application.HPartition.executor": "Debug",
-    "Application.HPartitionLabels.executor": "Debug",
-    "Application.HRemoveNthFromEnd.executor": "Debug",
-    "Application.HSearchInsert.executor": "Debug",
-    "Application.HSearchRange.executor": "Debug",
-    "Application.HSwapPairs.executor": "Debug",
-    "Application.HWordBreak.executor": "Debug",
-    "Application.MainExample.executor": "Debug",
-    "Application.MinCoin.executor": "Run",
-    "Maven.left_project [-Dtest=com.hf.left.MySqrt072...].executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/huangfu/code/left_project",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.BaseThread.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionInterface.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GetClass.executor&quot;: &quot;Run&quot;,
+    &quot;Application.HCanJump.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HDecodeString.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HExist.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HFindDuplicate.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HFindMedianSortedArrays.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HFindMin.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HIsValidBST.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HJump.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HLargestRectangleArea.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HLetterCombinations.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HMaxSlidingWindow.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HMergeKLists.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HNumIslands.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HPartition.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HPartitionLabels.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HRemoveNthFromEnd.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HSearchInsert.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HSearchRange.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HSwapPairs.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.HWordBreak.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MainExample.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.MinCoin.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.left_project [-Dtest=com.hf.left.MySqrt072...].executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/huangfu/code/left_project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.inline.completion&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.hf.left.netty" />
@@ -367,7 +366,9 @@
       <workItem from="1727230291894" duration="2256000" />
       <workItem from="1727332155244" duration="4935000" />
       <workItem from="1727399129947" duration="6659000" />
-      <workItem from="1728439037570" duration="4929000" />
+      <workItem from="1728439037570" duration="4980000" />
+      <workItem from="1728455318518" duration="127000" />
+      <workItem from="1728526663638" duration="6009000" />
     </task>
     <servers />
   </component>

@@ -34,16 +34,14 @@ public class MinCoin {
     }
 
     int backtrack(int[] coins, int remaining, int index){
-        if (remaining == 0) return 0;
+        if(remaining <= 0) return 0;
         if (index < 0) return -1;
-        int maxCoins = remaining / coins[index];
-        for (int i = maxCoins; i >= 0; i--) {
-            int newRemaining = remaining - i * coins[index];
-            if (newRemaining >=  0){
-                int result = backtrack(coins, newRemaining, index - 1);
-                if (result != -1){
-                    return i + result;
-                }
+        int maxCoinsCount = remaining / coins[index];
+        for (int i = maxCoinsCount; i >= 0; i--) {
+            int newRemaining = remaining - coins[index] * i;
+            int result = backtrack(coins, newRemaining, index - 1);
+            if (result != -1){
+                return i + result;
             }
         }
         return -1;
